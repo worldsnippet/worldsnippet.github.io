@@ -1,605 +1,919 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <!-- Basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-   
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
- 
-     <!-- Site Metas -->
-    <title>OnNext - One Page Parallax Template Bootstrap 4</title>  
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <title>Leon Hoffmann</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon" />
 
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" />
 
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet" />
 </head>
-<body id="page-top" class="politics_version">
 
-    <!-- LOADER -->
-    <div id="preloader">
-        <div id="main-ld">
-			<div id="loader"></div>  
-		</div>
-    </div><!-- end loader -->
-    <!-- END LOADER -->
-	
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+<body>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+      <div class="profile">
+        <img src="assets/img/profile-photo.png" alt="" class="img-fluid rounded-circle" />
+        <h1 class="text-light"><a href="index.html">Leon Hoffmann</a></h1>
+        <div class="social-links mt-3 text-center">
+          <!-- <a href="https://www.linkedin.com/in/ leon-hoff mann-9a7b4b2a9" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-telegram"></i></i></a> -->
+          </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li>
+            <a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Skills</span></a>
+          </li>
+          <li>
+            <a href="#resume" class="nav-link scrollto"><i class='bx bx-receipt'></i> <span>Resume</span></a>
+          </li>
+          <li>
+            <a href="#services" class="nav-link scrollto">
+              <i class='bx bx-help-circle'></i> <span>Services</span>
+            </a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link scrollto">
+              <i class='bx bxs-report'></i><span>Portfolio</span>
+            </a>
+          </li>
+          <li>
+            <a href="#curriculum" class="nav-link scrollto">
+              <i class='bx bx-brain'></i> <span>Education</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link scrollto">
+              <i class='bx bx-brain'></i> <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- .nav-menu -->
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>&nbsp;&nbsp;Leon Hoffmann&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        I'm a
+        <span class="typed"
+          data-typed-items="software lead/senior developer., meticulous database administrator., talented software solver/creator., challenged/dedicated freelancer."></span>
+      </p>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-			<img class="img-fluid" src="images/logo.png" alt="" />
-		</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Our Team</a>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#pricing">Pricing</a>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contect Us</a>
-            </li>
-          </ul>
+        <div class="section-title">
+          <h2>About</h2>
+          <p>
+            Hello, I'm <b>Leon Hoffmann</b>.<br>
+            With <b>Bachelor's degree in software engineering & 6+ years experience
+              from software internship to lead engineer</b>, if you'd like,
+            I'm ready to go up with your business.
+            I've <b>done 25+ jobs</b> full-time or part-time so far.<br>
+            Especially, <b>As a team-leader</b> I've <b>built</b> <b>AFF</b>(<u>Assistant For Freelancer</u>), with my 6
+            global colleagues. <b>Using this freelancer-support environment</b>, we(myself & 6 colleagues) became better
+            to get success in freelancing <b>through freely-sharing experience, skills and information one
+              another</b>.<br>
+            How shall I support you?
+          </p>
+        </div>
+
+        <div class="row" style="margin-bottom: 10px;">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Software lead / senior developer</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Degree:</strong> <span>Bachelor of Computer Science</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Experience:</strong> <span>6+ years</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Jobs:</strong> <span>25+</span>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>English:</strong> <span>Fluent</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Timezone:</strong> <span>UTC + 01:00</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-	
-	<section id="home" class="main-banner parallaxie" style="background: url('uploads/banner-01.jpg')">
-		<div class="heading">
-			<h1>Welcome to OnNext</h1>			
-			<h3 class="cd-headline clip is-full-width">
-				<span>Lorem Ipsum Dolor Sit Amet </span>
-				<span class="cd-words-wrapper">
-					<b class="is-visible">Web Developer</b>
-					<b>Web Design</b>
-					<b>Creative Design</b>
-					<b>Graphic Design</b>
-				</span>
-				<div class="btn-ber">
-					<a class="get_btn hvr-bounce-to-top" href="#">Get started</a>
-					<a class="learn_btn hvr-bounce-to-top" href="#">Learn More</a>
-				</div>
-			</h3>
-		</div>
-	</section>
+    </section>
+    <!-- End About Section -->
 
-    <div id="about" class="section wb">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="message-box">                        
-                        <h2>Welcome to OnNext</h2>
-                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo. </p>
-						<p>Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo.</p>
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>
+            I've been versed at dev & management in various of software fields such as:
+          </p>
+        </div>
 
-                        <a href="#" class="sim-btn hvr-bounce-to-top"><span>Contact Us</span></a>
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
-
-                <div class="col-md-6">
-                    <div class="right-box-pro wow fadeIn">
-                        <img src="uploads/about_04.jpg" alt="" class="img-fluid img-rounded">
-                    </div><!-- end media -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-	
-    <div id="services" class="section lb">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3>Services</h3>
-                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
-            </div><!-- end title -->
-
-            <div class="row">
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-seo"></i>
-						</div>
-						<h2>Web Development</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-                </div><!-- end col -->
-                <div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-development"></i>
-						</div>
-						<h2>Responsive Design</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-                </div><!-- end col -->
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-process"></i>
-						</div>
-						<h2>Creative Design</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-                </div><!-- end col -->
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-discuss-issue"></i>
-						</div>
-						<h2>Support</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-                </div><!-- end col -->
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-idea"></i>
-						</div>
-						<h2>Web Idea</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-                </div><!-- end col -->
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-idea-1"></i>
-						</div>
-						<h2>Graphic Design</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-	
-	<div id="portfolio" class="section lb">
-		<div class="container">
-			<div class="section-title text-center">
-                <h3>Portfolio</h3>
-                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
-            </div><!-- end title -->
-			
-			<div class="gallery-menu row">
-				<div class="col-md-12">
-					<div class="button-group filter-button-group text-center">
-						<button class="active" data-filter="*">All</button>
-						<button data-filter=".gal_a">Web Development</button>
-						<button data-filter=".gal_b">Creative Design</button>
-						<button data-filter=".gal_c">Graphic Design</button>
-					</div>
-				</div>
-			</div>
-			
-			<div class="gallery-list row">
-				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
-					<div class="gallery-single fix">
-						<img src="uploads/gallery_img-01.jpg" class="img-fluid" alt="Image">
-						<div class="img-overlay">
-							<a href="uploads/gallery_img-01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
-					<div class="gallery-single fix">
-						<img src="uploads/gallery_img-02.jpg" class="img-fluid" alt="Image">
-						<div class="img-overlay">
-							<a href="uploads/gallery_img-02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
-					<div class="gallery-single fix">
-						<img src="uploads/gallery_img-03.jpg" class="img-fluid" alt="Image">
-						<div class="img-overlay">
-							<a href="uploads/gallery_img-03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-4 col-sm-6 gallery-grid gal_b gal_a">
-					<div class="gallery-single fix">
-						<img src="uploads/gallery_img-04.jpg" class="img-fluid" alt="Image">
-						<div class="img-overlay">
-							<a href="uploads/gallery_img-04.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
-					<div class="gallery-single fix">
-						<img src="uploads/gallery_img-05.jpg" class="img-fluid" alt="Image">
-						<div class="img-overlay">
-							<a href="uploads/gallery_img-05.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-4 col-sm-6 gallery-grid gal_c gal_a">
-					<div class="gallery-single fix">
-						<img src="uploads/gallery_img-06.jpg" class="img-fluid" alt="Image">
-						<div class="img-overlay">
-							<a href="uploads/gallery_img-06.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			</div>
-		</div>
-	</div>
-	
-	
-	<div id="blog" class="section lb">
-		<div class="container">
-			<div class="section-title text-center">
-                <h3>Blog</h3>
-                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
-            </div><!-- end title -->
-			
-			<div class="row">
-				<div class="col-md-4 col-sm-6 col-lg-4">
-					<div class="post-box">
-						<div class="post-thumb">
-							<img src="uploads/blog-01.jpg" class="img-fluid" alt="post-img" />
-							<div class="date">
-								<span>06</span>
-								<span>Aug</span>
-							</div>
-						</div>
-						<div class="post-info">
-							<h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>
-							<ul>
-                                <li>by admin</li>
-                                <li>Apr 21, 2018</li>
-                                <li><a href="#"><b> Comments</b></a></li>
-                            </ul>
-							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-lg-4">
-					<div class="post-box">
-						<div class="post-thumb">
-							<img src="uploads/blog-02.jpg" class="img-fluid" alt="post-img" />
-							<div class="date">
-								<span>06</span>
-								<span>Aug</span>
-							</div>
-						</div>
-						<div class="post-info">
-							<h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>
-							<ul>
-                                <li>by admin</li>
-                                <li>Apr 21, 2018</li>
-                                <li><a href="#"><b> Comments</b></a></li>
-                            </ul>
-							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-lg-4">
-					<div class="post-box">
-						<div class="post-thumb">
-							<img src="uploads/blog-03.jpg" class="img-fluid" alt="post-img" />
-							<div class="date">
-								<span>06</span>
-								<span>Aug</span>
-							</div>
-						</div>
-						<div class="post-info">
-							<h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>
-							<ul>
-                                <li>by admin</li>
-                                <li>Apr 21, 2018</li>
-                                <li><a href="#"><b> Comments</b></a></li>
-                            </ul>
-							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-		</div>
-	</div>
-	
-	<div id="team" class="section wb">
-		<div class="container">
-			<div class="section-title text-center">
-				<h3>Our Team</h3>
-				<p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
-			</div><!-- end title -->
-		
-			<div class="row">
-				<div class="col-md-3 col-sm-6">
-					<div class="our-team">
-						<div class="pic">
-							<img src="uploads/img-2.jpg">
-						</div>
-						<div class="team-content">
-							<h3 class="title">Kristiana</h3>
-							<span class="post">Web Designer</span>
-							<ul class="social">
-								<li><a href="#" class="fa fa-facebook"></a></li>
-								<li><a href="#" class="fa fa-twitter"></a></li>
-								<li><a href="#" class="fa fa-google-plus"></a></li>
-								<li><a href="#" class="fa fa-skype"></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-3 col-sm-6">
-					<div class="our-team">
-						<div class="pic">
-							<img src="uploads/img-4.jpg">
-						</div>
-						<div class="team-content">
-							<h3 class="title">Miranda joy</h3>
-							<span class="post">Web Designer</span>
-							<ul class="social">
-								<li><a href="#" class="fa fa-facebook"></a></li>
-								<li><a href="#" class="fa fa-twitter"></a></li>
-								<li><a href="#" class="fa fa-google-plus"></a></li>
-								<li><a href="#" class="fa fa-skype"></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-3 col-sm-6">
-					<div class="our-team">
-						<div class="pic">
-							<img src="uploads/img-1.jpg">
-						</div>
-						<div class="team-content">
-							<h3 class="title">Williamson</h3>
-							<span class="post">Web Developer</span>
-							<ul class="social">
-								<li><a href="#" class="fa fa-facebook"></a></li>
-								<li><a href="#" class="fa fa-twitter"></a></li>
-								<li><a href="#" class="fa fa-google-plus"></a></li>
-								<li><a href="#" class="fa fa-skype"></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-3 col-sm-6">
-					<div class="our-team">
-						<div class="pic">
-							<img src="uploads/img-3.jpg">
-						</div>
-						<div class="team-content">
-							<h3 class="title">Steve Thomas</h3>
-							<span class="post">Web Developer</span>
-							<ul class="social">
-								<li><a href="#" class="fa fa-facebook"></a></li>
-								<li><a href="#" class="fa fa-twitter"></a></li>
-								<li><a href="#" class="fa fa-google-plus"></a></li>
-								<li><a href="#" class="fa fa-skype"></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div id="pricing" class="section lb">
-		<div class="container">
-			<div class="section-title text-center">
-                <h3>Pricing</h3>
-                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
-            </div><!-- end title -->
-			
-			<div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="pricingTable">
-                        <svg x="0" y="0" viewBox="0 0 360 220">
-                            <g>
-                                <path fill="#28a9e2" d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
-                                    c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
-                                    s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
-                                    L0.732,193.75z"></path>
-                            </g>
-                            <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="78.4489">$10</text>
-                            <text transform="matrix(0.9566 0 0 1 197.3096 83.9121)" fill="#fff" font-size="29.0829">.99</text>
-                            <text transform="matrix(1 0 0 1 233.9629 115.5303)" fill="#fff" font-size="15.4128">/Month</text>
-                        </svg>
-                        <div class="pricing-content">
-                            <h3 class="title">Standard</h3>
-                            <ul class="pricing-content">
-                                <li><b>50GB</b> Disk Space</li>
-                                <li><b>50</b> Email Accounts</li>
-                                <li><b>50GB</b> Bandwidth</li>
-                                <li><b>10</b> Subdomains</li>
-                                <li><b>15</b> Domains</li>
-                            </ul>
-                            <a href="#" class="sim-btn hvr-bounce-to-top pricingTable-signup">Buy Now</a>
-                        </div>
-                    </div>
+        <div class="row skills-content">
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="progress">
+              <span class="skill">Full stack Web <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
                 </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="pricingTable blue">
-                        <svg x="0" y="0" viewBox="0 0 360 220">
-                            <g>
-                                <path fill="#28a9e2" d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
-                                    c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
-                                    s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
-                                    L0.732,193.75z"></path>
-                            </g>
-                            <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="78.4489">$20</text>
-                            <text transform="matrix(0.9566 0 0 1 197.3096 83.9121)" fill="#fff" font-size="29.0829">.99</text>
-                            <text transform="matrix(1 0 0 1 233.9629 115.5303)" fill="#fff" font-size="15.4128">/Month</text>
-                        </svg>
-                        <div class="pricing-content">
-                            <h3 class="title">Business</h3>
-                            <ul class="pricing-content">
-                                <li><b>60GB</b> Disk Space</li>
-                                <li><b>60</b> Email Accounts</li>
-                                <li><b>60GB</b> Bandwidth</li>
-                                <li><b>15</b> Subdomains</li>
-                                <li><b>20</b> Domains</li>
-                            </ul>
-                            <a href="#" class="sim-btn hvr-bounce-to-top pricingTable-signup">Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="pricingTable red">
-                        <svg x="0" y="0" viewBox="0 0 360 220">
-                            <g>
-                                <path fill="#28a9e2" d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
-                                    c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
-                                    s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
-                                    L0.732,193.75z"></path>
-                            </g>
-                            <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="78.4489">$30</text>
-                            <text transform="matrix(0.9566 0 0 1 197.3096 83.9121)" fill="#fff" font-size="29.0829">.99</text>
-                            <text transform="matrix(1 0 0 1 233.9629 115.5303)" fill="#fff" font-size="15.4128">/Month</text>
-                        </svg>
-                        <div class="pricing-content">
-                            <h3 class="title">Premium</h3>
-                            <ul class="pricing-content">
-                                <li><b>70GB</b> Disk Space</li>
-                                <li><b>70</b> Email Accounts</li>
-                                <li><b>70GB</b> Bandwidth</li>
-                                <li><b>20</b> Subdomains</li>
-                                <li><b>25</b> Domains</li>
-                            </ul>
-                            <a href="#" class="sim-btn hvr-bounce-to-top pricingTable-signup">Buy Now</a>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-			
-		</div>
-	</div>
 
-    <div id="contact" class="section db">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3>Contact</h3>
-                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
-            </div><!-- end title -->
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="contact_form">
-                        <div id="message"></div>
-                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<input class="form-control" id="name" type="text" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name.">
-										<p class="help-block text-danger"></p>
-									</div>
-									<div class="form-group">
-										<input class="form-control" id="email" type="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email address.">
-										<p class="help-block text-danger"></p>
-									</div>
-									<div class="form-group">
-										<input class="form-control" id="phone" type="tel" placeholder="Your Phone" required="required" data-validation-required-message="Please enter your phone number.">
-										<p class="help-block text-danger"></p>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<textarea class="form-control" id="message" placeholder="Your Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-										<p class="help-block text-danger"></p>
-									</div>
-								</div>
-								<div class="clearfix"></div>
-								<div class="col-lg-12 text-center">
-									<div id="success"></div>
-									<button id="sendMessageButton" class="sim-btn hvr-bounce-to-top" type="submit">Send Message</button>
-								</div>
-							</div>
-						</form>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-
-    <div class="copyrights">
-        <div class="container">
-            <div class="footer-distributed">
-				<a href="#"><img src="images/logo.png" alt="" /></a>
-                <div class="footer-center">
-                    <p class="footer-links">
-                        <a href="#">Home</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Pricing</a>
-                        <a href="#">About</a>
-                        <a href="#">Faq</a>
-                        <a href="#">Contact</a>
-                    </p>
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">OnNext</a> Design By : 
-					<a href="https://html.design/">html design</a></p>
+            <div class="progress">
+              <span class="skill">Mobile <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                 </div>
+              </div>
             </div>
-        </div><!-- end container -->
-    </div><!-- end copyrights -->
 
-    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+            <div class="progress">
+              <span class="skill">Cross-platform App <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
 
-    <!-- ALL JS FILES -->
-    <script src="js/all.js"></script>
-	<!-- Camera Slider -->
-	<script src="js/jquery.mobile.customized.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script> 
-	<script src="js/parallaxie.js"></script>
-	<script src="js/headline.js"></script>
-	<!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="js/custom.js"></script>
-    <script src="js/jquery.vide.js"></script>
+            <div class="progress">
+              <span class="skill">driver/kernel<i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <div class="progress">
+              <span class="skill">AI <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Database administration <i class="val">92%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Smart contract <i class="val">87%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p>
+            My skillful Technologies, languages, libraries and frameworks are:
+          </p>
+        </div>
+
+        <div class="row skills-content languages" data-aos="fade-up">
+          <div class="items large">
+            <i class='bx bxl-javascript'></i>
+            <label>Javascript</label>
+            <b>|</b>
+            <span>99%</span>
+          </div>
+
+          <div class="items large">
+            <i class='bx bxl-typescript'></i>
+            <label>Typescript</label>
+            <b>|</b>
+            <span>80%</span>
+          </div>
+
+          <div class="items small">
+            <i class='bx bxl-php'></i>
+            <label>PHP</label>
+            <b>|</b>
+            <span>99%</span>
+          </div>
+
+          <div class="items small">
+            <i class='bx bxl-html5'></i>
+            <label>HTML</label>
+            <b>|</b>
+            <span>98%</span>
+          </div>
+
+          <div class="items small">
+            <i class='bx bxl-html5'></i>
+            <label>CSS</label>
+            <b>|</b>
+            <span>95%</span>
+          </div>
+
+          <div class="items small">
+            <i class='bx bxl-java'></i>
+            <label>Java</label>
+            <b>|</b>
+            <span>75%</span>
+          </div>
+
+          <div class="items">
+            <i class='bx bxl-dev-to'></i>
+            <label>C/C++/C#</label>
+            <b>|</b>
+            <span>95%</span>
+          </div>
+
+          <div class="items">
+            <i>S</i>
+            <label>Solidity</label>
+            <b>|</b>
+            <span>90%</span>
+          </div>
+
+          <div class="items">
+            <i>R</i>
+            <label>Rust</label>
+            <b>|</b>
+            <span>73%</span>
+          </div>
+
+          <div class="items small">
+            <i class='bx bxl-go-lang'></i>
+            <label>Go</label>
+            <b>|</b>
+            <span>55%</span>
+          </div>
+
+          <div class="items small">
+            <i class='bx bxl-python'></i>
+            <label>Python</label>
+            <b>|</b>
+            <span>85%</span>
+          </div>
+        </div>
+
+        <div class="row skills-content library" data-aos="fade-left">
+          <div class="items small">
+            <i class='bx bxl-react'></i>
+            <label>React</label>
+            <b>|</b>
+            <span>95%</span>
+          </div>
+
+          <div class="items small">
+            <i class='bx bxl-vuejs'></i>
+            <label>Vue</label>
+            <b>|</b>
+            <span>85%</span>
+          </div>
+
+          <div class="items">
+            <i class='bx bxl-angular'></i>
+            <label>Angular</label>
+            <b>|</b>
+            <span>70%</span>
+          </div>
+
+          <div class="items small">
+            <i><u>S</u></i>
+            <label>Svelte</label>
+            <b>|</b>
+            <span>45%</span>
+          </div>
+
+          <div class="items small">
+            <i>L</i>
+            <label>Laravel</label>
+            <b>|</b>
+            <span>95%</span>
+          </div>
+
+          <div class="items small">
+            <i class='bx bxl-unity'></i>
+            <label>Unity</label>
+            <b>|</b>
+            <span>65%</span>
+          </div>
+
+          <div class="items small">
+            <i class='bx bxl-sass'></i>
+            <label>Sass</label>
+            <b>|</b>
+            <span>98%</span>
+          </div>
+
+          <div class="items small">
+            <i><u>3</u></i>
+            <label>Web3</label>
+            <b>|</b>
+            <span>73%</span>
+          </div>
+
+          <div class="items large">
+            <i class='bx bxl-wordpress'></i>
+            <label>Wordpress</label>
+            <b>|</b>
+            <span>95%</span>
+          </div>
+
+          <div class="items small">
+            <i class='bx bxl-shopify'></i>
+            <label>Shopify</label>
+            <b>|</b>
+            <span>67%</span>
+          </div>
+
+          <div class="items small">
+            <i>E</i>
+            <label>Express</label>
+            <b>|</b>
+            <span>98%</span>
+          </div>
+
+          <div class="items small">
+            <i>B</i>
+            <label>Bun.js</label>
+            <b>|</b>
+            <span>72%</span>
+          </div>
+
+          <div class="items small">
+            <i>E</i>
+            <label>Electron</label>
+            <b>|</b>
+            <span>91%</span>
+          </div>
+
+          <div class="items small">
+            <i class='bx bxl-django'></i>
+            <label>Django</label>
+            <b>|</b>
+            <span>81%</span>
+          </div>
+        </div>
+
+        <div class="row skills-content database" data-aos="fade-down">
+          <div class="items large">
+            <i class='bx bxl-postgresql'></i>
+            <label>PostgreSQL</label>
+            <b>|</b>
+            <span>72%</span>
+          </div>
+
+          <div class="items small">
+            <i>M</i>
+            <label>MySQL</label>
+            <b>|</b>
+            <span>83%</span>
+          </div>
+
+          <div class="items">
+            <i class='bx bxl-mongodb'></i>
+            <label>MongoDB</label>
+            <b>|</b>
+            <span>98%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>
+            Working for <b>Macrix Technology Group</b> in position from summer-intern to <b>lead engineer
+              for 4+ years</b>, I've got rich experience in both of software dev & management.
+            I <b>participated 17 web, mobile, AI, cross-platform, smart contract and
+              database administration jobs</b> there, especially,
+            for last 2 years I <b>led 5+ projects</b> successfully.<br>
+            Unfotunately, Having car accident in autumn 2021 I voluntarily resigned after 6 months.
+            Since being recovered I got interested in <b>position of freelancer</b> from
+            June 2022 and have <b>done 8+ jobs</b> with satisfication of each client so far.<br>
+            During that period, it brought me a creative idea to make <b>freelancer-support system</b>
+            (<b>AFF</b>: Assistant For Freelancer), and recently I've finally <b>built with 6
+              global colleagues</b>.<br>
+            Nowadays, we are globally co-working through it, that's why I keep solid
+            confidence in any software fields.
+            Our tagline is <b>"Together our 7, Nothing not to solve"</b><br>
+            Let me introduce my career in detail following:
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right">
+            <h3 class="resume-title">in u2i</h3>
+            <div class="resume-item">
+              <h4>Intern</h4>
+              <h5>May 2017 - Sepember 2017</h5>
+              <p><i>Database typist & analyser</i></p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Mobile developer</h4>
+              <h5>October 2017 - Febrary 2018</h5>
+              <p><i>Fontend developer II</i></p>
+              <h5>March 2018 - August 2018</h5>
+              <p><i>Junior developer</i></p>
+              <h5>September 2018 - Feb 2019</h5>
+              <p><i>Senior developer</i></p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Web developer</h4>
+              <h5>March 2019 - December 2019</h5>
+              <p><i>AngularJS developer</i></p>
+              <h5>January 2020 - April 2020</h5>
+              <p><i>Backend developer</i></p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Kerenl engineer</h4>
+              <h5>May 2020 - September 2020</h5>
+              <p><i>Solution researcher</i></p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Database administrator</h4>
+              <h5>October 2020 - November 2020</h5>
+              <p><i>ERP DB maintenance & management</i></p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Lead developer</h4>
+              <h5>Febrary 2021 - August 2021</h5>
+              <p><i>Led 5+ AI, ATM driver, Blockchain, Desktop App dev</i></p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+            <h3 class="resume-title">Freelancer</h3>
+            <div class="resume-item">
+              <h4>Software developer</h4>
+              <h5>June 2022 - Present</h5>
+              <ul>
+                <li><i>
+                    completed 3 fixing bug jobs
+                  </i></li>
+                <li><i>
+                    completed 1 from-scratch website dev
+                  </i></li>
+                <li><i>
+                    completed 2 matintenance services
+                  </i></li>
+                <li><i>
+                    Joined to 1 NFT staking dev
+                  </i></li>
+                <li><i>
+                    Completion of 1 integrated blockchain service
+                  </i></li>
+                <li><i>
+                    Led AFF service
+                  </i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Resume Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>
+            As a <b>challenged / dedicated freelancer</b> I am <b>ready to contribute</b>
+            to your business in every software progress.<br>
+            Even though I'm in <b>GMT+1, German</b>, I feel being <b>able to work
+              in any timezone with 6 global colleagues'</b> technical and overtime <b>
+              supports through AFF service</b>.<br>
+            In <b>Agile methodology and punctual manner</b> I've delivered all my jobs in time,
+            and I'll surely do so in the future. Of course, For your goal, I am <b>prepared to work
+              from scratch or maintenance</b> either.<br>
+            The most important point I concern is the <b>best quality and maintenancible</b>
+            so I always keep <b>"The solution first, the action next"</b>.
+            Being ready in both of working alone and as a team member, I am <b>experienced
+              at developer to leader</b>, including <b>database administrator and technical
+              consultant in english fluently</b>.<br>
+            In addition, since I've decent <b>relationship with various software experts</b>
+            (6+ global colleagues), I feel confident to satisfy to you <b>
+              through sharing situation and solution</b> one another.
+            Oh, we're permenently growing our skills through <b>metting 2-3 times a month in AFF</b>.
+            <br>How do you think of? No failure in trusting me!
+          </p>
+        </div>
+    </section>
+    <!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>
+            I joined <b>25+</b> software projects with responsibilities <b>from developer to
+            leader for 10+ years</b>. <b>5 I led</b>, and completed <b>8 as a freelancer</b>.
+            <br>Here It's revealed most valuable 10 products, following.
+          </p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">AI</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/app-01.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/app-01.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Mobile & Desktop app for social-chatting. I joined as a kernel developer in its maintenance."><i
+                    class="bx bx-plus"></i></a>
+                <a href="https://brainly-homework-help-solver.en.softonic.com/" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/web-02.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/web-02.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Advertising service of STRATOFLOW software company. I joined as a frontend developer in dev from scratch."><i
+                    class="bx bx-plus"></i></a>
+                <a href="https://stratoflow.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/app-02.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/app-02.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Mobile & Desktop UX design tool. I joined as a Desktop app developer in its updating."><i
+                    class="bx bx-plus"></i></a>
+                <a href="https://www.uxpin.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/AI-01.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/AI-01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Private product. I've completed its AI engine to seek the most revenual cryptocurrency.">
+                  <i class="bx bx-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/web-03.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/web-03.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Reserving system for Grape Restaurant Wrocław. I joined as a backend developer in maintenance this service."><i
+                    class="bx bx-plus"></i></a>
+                <a href="https://www.grapehotel.pl/restauracja/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/app-03.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/app-03.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Human health & fitness supporter. I worked in iOS frontend parts in its updating."><i
+                    class="bx bx-plus"></i></a>
+                <a href="https://www.docplanner.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/AI-02.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/AI-02.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Resources to help Online Retailers combat Shopping Cart Abandonment with Text Messaging. I've worked in its AI engine for detecting person."><i
+                    class="bx bx-plus"></i></a>
+                <a href="https://www.messagebuy.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/AI-03.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/AI-03.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Anti game-cheat engine. I contributed to its AI part to detect cheating action."><i
+                    class="bx bx-plus"></i></a>
+                <a href="https://xberry.tech/case-study/antycheat/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/web-01.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/web-01.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Ecommerce service to order cake. I joined as a ecommerce builder from scratch."><i
+                    class="bx bx-plus"></i></a>
+                <a href="https://e-torty.pl/wroclaw-cakes-order-a-cake-to-wroclaw" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/web-04.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/web-04.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="It's a freelancer-supporter. Private service. I'd come up with the idea to build it and led its development with 6 global colleagues."><i
+                    class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Curriculum Section ======= -->
+    <section id="curriculum" class="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>Education</h2>
+          <div class="university" data-aos="fade-down">
+            <div>
+              <p>&nbsp;&nbsp;<strong>October 2013 - September 2017</strong></p>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <b>Bachelor</b> of Computer Science
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;
+              Faculty of Applied Engineering
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;
+              <b>Kaiserslautern University</b> of Applied Sciences
+            </div>
+          </div>
+        </div>
+
+        <div class="row curriculum">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/graduation-myself.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-8" data-aos="fade-left">
+            <img src="assets/img/graduation-class.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Curriculum Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Testimonials</h2>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  The creative idea and best solution, These are his important benefits.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/colleague-01.png" class="testimonial-img" alt="" />
+                <h3>Thomas Richard</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  いつまであなたと一緒に仕事を楽しめますか？
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/colleague-02.png" class="testimonial-img" alt="" />
+                <h3>ひでおみ でぐち</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Z pewnością kiedyś go dogonię zarówno pod względem umiejętności oprogramowania, jak i przywództwa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/colleague-03.png" class="testimonial-img" alt="" />
+                <h3>Kornel Dudek</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Saya tidak bertemu mana-mana penyokong teknikal yang boleh dipercayai tetapi hanya dia.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/colleague-04.png" class="testimonial-img" alt="" />
+                <h3>Rajeswary Rajendran</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  He always say that "the solution first, the action next". And I always call him "meticulous preparer".
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/colleague-05.jpg" class="testimonial-img" alt="" />
+                <h3>Daivd Wilson</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Cuanto más trabajo con él, mejor me vuelvo.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/colleague-06.png" class="testimonial-img" alt="" />
+                <h3>Juan Pablo Torres</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+          <div class="col-lg-7 d-flex align-items-stretch">
+            <div class="info">
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>eroseagle@hotmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class='bx bxl-linkedin'></i>
+                <h4>Linkedin:</h4>
+                <p>https://www.linkedin.com/in/leon-hoffmann-9a7b4b2a9/</p>
+              </div>
+
+              <div class="phone">
+                <i class='bx bxl-skype'></i>
+                <h4>Skype:</h4>
+                <p>live:erosnewcentury</p>
+              </div>
+
+              <div class="phone">
+                <i class='bx bxl-github'></i>
+                <h4>Github:</h4>
+                <p>https://github.com/eroseagledev</p>
+              </div>
+
+              <div class="phone">
+                <i class='bx bx-mobile'></i>
+                <h4>Phone:</h4>
+                <p>+49 06742 2675</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 mt-5 mt-lg-0 d-flex align-items-stretch"
+            style="display:flex; align-items: center; justify-content: center;">
+            <img src="assets/img/contact.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </body>
+
 </html>
